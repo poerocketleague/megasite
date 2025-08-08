@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0e1f17;
+  color: #e8f5e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #81c784;
+}
+
+#counter {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #a5d6a7;
+  font-weight: 600;
+}
+
+#runaway-button {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #66bb6a, #43a047);
+  color: white;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s ease;
+}
